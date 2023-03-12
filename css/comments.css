@@ -1,0 +1,93 @@
+
+.comments-wrap {
+  position: relative;
+  padding: 0 100px;
+}
+.comments-wrap:after {
+  position: absolute;
+  content: '';
+  width: 287px;
+  height: 578px;
+  bottom: -130px;
+  right: 0;
+  background: url(../images/decor2.png);
+}
+.comments-block {
+  max-width: 842px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.comments__box {
+  display: block;
+  min-width: 30px;
+  height: 350px;
+  background: #F0F0F0;
+}
+.comments-images {
+  width: 250px;
+  display: flex;
+  align-items: flex-start;
+  
+}
+.comments__img {
+  display: block;
+  width: 250px;
+  height: 350px;
+}
+.comments-texts {
+  position: relative;
+  margin-left: 80px;
+}
+.comments-texts:before {
+  position: absolute;
+  content: '';
+  width: 67px;
+  height: 53px;
+  left: -90px;
+  top: 0;
+  background: url(../images/rew.png) no-repeat;
+}
+.comments__txt1 {
+  max-width: 510px;
+  height: 170px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+}
+
+.comments__txt2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+  color: #303030;
+  border-bottom: 1.5px solid #D9D9D9;
+  padding-bottom: 15px;
+}
+
+.comments__txt3 {
+  max-width: 370px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+  margin-top: 15px;
+}
+
+.comments_block1 {
+  margin-left: auto;
+  margin-right: 60px;
+  margin-top: 200px;
+}
+.comments_block2 {
+  margin-left: 60px;
+  margin-top: 75px;
+  margin-bottom: 200px;
+}
